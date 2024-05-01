@@ -12,7 +12,10 @@ export default function Navbar() {
           <i className="bx bx-menu my-2 font-bold text-white text-lg hidden"></i>
           <ul className="flex text-white my-2 font-bold space-x-5 font-sans px-5">
             <li>
-              <a href="/" className="hover:underline hover:translate-x-0 ">
+              <a
+                href="/"
+                className="hover:scale-125 duration-300 py-1 hover:text-teal-400 "
+              >
                 Home
               </a>
             </li>
