@@ -12,7 +12,7 @@ export default function Navbar() {
           <i className="bx bx-menu my-2 font-bold text-white text-lg hidden"></i>
           <ul className="flex text-white my-2 font-bold space-x-5 font-sans px-5">
             <li>
-              <a href="/" className="hover:underline ">
+              <a href="/" className="hover:underline hover:translate-x-0 ">
                 Home
               </a>
             </li>
