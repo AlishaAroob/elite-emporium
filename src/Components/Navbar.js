@@ -9,28 +9,25 @@ export default function Navbar() {
             <img className="h-9 w-9 my-1" src={logo} alt="" />
             <h1 className=" font-bold text-white my-2 ">Elite Emporium</h1>
           </span>
-          <i className="bx bx-menu my-2 font-bold text-white text-lg hidden"></i>
+          <i className="bx bx-menu my-2 font-bold text-white text-lg hidden hover:text-yellow-500 hover:text-lg "></i>
           <ul className="flex text-white my-2 font-bold space-x-5 font-sans px-5">
             <li>
-              <a
-                href="/"
-                className="hover:scale-125 duration-300 py-1 hover:text-teal-400 "
-              >
+              <a href="/" className="hover:text-yellow-500 hover:text-sm ">
                 Home
               </a>
             </li>
             <li>
-              <a href="/" className="hover:underline">
+              <a href="/" className="hover:text-yellow-500 hover:text-sm ">
                 About
               </a>
             </li>
             <li>
-              <a href="/" className="hover:underline">
+              <a href="/" className="hover:text-yellow-500 hover:text-sm ">
                 Shop
               </a>
             </li>
             <li>
-              <a href="/" className="hover:underline">
+              <a href="/" className="hover:text-yellow-500 hover:text-sm ">
                 Contact Us
               </a>
             </li>
@@ -38,10 +35,10 @@ export default function Navbar() {
           <ul className="space-x-6">
             {" "}
             <a href="/">
-              <i className="bx bx-user my-2 font-bold text-white text-lg"></i>
+              <i className="bx bx-user my-2 font-bold text-white text-lg hover:text-yellow-500 hover:text-sm "></i>
             </a>
             <a href="/">
-              <i className="bx bx-cart my-2 font-bold text-white text-lg"></i>
+              <i className="bx bx-cart my-2 font-bold text-white text-lg  hover:text-yellow-500 hover:text-sm"></i>
             </a>
             <span className="space-x-2">
               <input
@@ -50,7 +47,7 @@ export default function Navbar() {
                 placeholder="Search here"
               />
               <a href="/">
-                <i className="bx bx-search-alt-2 my-2 font-bold text-white text-lg"></i>
+                <i className="bx bx-search-alt-2 my-2 font-bold text-white text-lg  hover:text-yellow-500 hover:text-sm "></i>
               </a>
             </span>
           </ul>
