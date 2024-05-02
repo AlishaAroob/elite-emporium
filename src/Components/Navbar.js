@@ -18,12 +18,18 @@ export default function Navbar() {
             </li>
             <li>
               <a href="/" className="hover:text-yellow-500 hover:text-sm ">
-                About
+                Shop<i className="bx bx-caret-down" onClick={ToggleEvent}></i>
+                <span className="hidden">
+                  {" "}
+                  <li>Best Sellers</li>
+                  <li>Trending books</li>
+                  <li>Popular books</li>
+                </span>
               </a>
             </li>
             <li>
               <a href="/" className="hover:text-yellow-500 hover:text-sm ">
-                Shop
+                Pricing
               </a>
             </li>
             <li>
