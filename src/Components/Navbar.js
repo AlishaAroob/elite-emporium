@@ -41,10 +41,10 @@ export default function Navbar() {
           <ul className="space-x-6">
             {" "}
             <a href="/">
-              <i className="bx bx-user my-2 font-bold text-white text-lg hover:text-yellow-500 hover:text-sm "></i>
+              <i className="bx bx-user my-2 font-bold text-white text-xl hover:text-yellow-500 hover:text-lg "></i>
             </a>
             <a href="/">
-              <i className="bx bx-cart my-2 font-bold text-white text-lg  hover:text-yellow-500 hover:text-sm"></i>
+              <i className="bx bx-cart my-2 font-bold text-white text-xl  hover:text-yellow-500 hover:text-lg"></i>
             </a>
             <span className="space-x-2">
               <input
@@ -53,7 +53,7 @@ export default function Navbar() {
                 placeholder="Search here"
               />
               <a href="/">
-                <i className="bx bx-search-alt-2 my-2 font-bold text-white text-lg  hover:text-yellow-500 hover:text-sm "></i>
+                <i className="bx bx-search-alt-2 my-2 font-bold text-white text-lg hover:text-yellow-500 hover:text-sm "></i>
               </a>
             </span>
           </ul>
