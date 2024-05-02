@@ -1,6 +1,8 @@
-import React from "react";
 import logo from "./Assets/logo1.png";
+import React, { useState } from "react";
 export default function Navbar() {
+  const [MenuIsOpen, SetMenuIsOpen] = useState("false");
+
   return (
     <div>
       <nav className="sticky">
@@ -17,15 +19,25 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="/" className="hover:text-yellow-500 hover:text-sm ">
-                Shop<i className="bx bx-caret-down" onClick={ToggleEvent}></i>
-                <span className="hidden">
-                  {" "}
-                  <li>Best Sellers</li>
-                  <li>Trending books</li>
-                  <li>Popular books</li>
-                </span>
+              <a
+                href="/"
+                className="hover:text-yellow-500 hover:text-sm "
+                onClick={() => SetMenuIsOpen(!MenuIsOpen)}
+              >
+                Shop
+                <i className={`bx bx-caret-${MenuIsOpen ? "up" : "down"}`}></i>
               </a>
+              {MenuIsOpen && (
+                <div
+                  className={`flex flex-col space-y-1 my-2 ${
+                    MenuIsOpen ? "block" : "hidden"
+                  }`}
+                >
+                  <a href="/">All collection</a>
+                  <a href="/">Best sellers</a>
+                  <a href="/">Trending books</a>
+                </div>
+              )}
             </li>
             <li>
               <a href="/" className="hover:text-yellow-500 hover:text-sm ">
