@@ -1,15 +1,20 @@
-import logo from "./Assets/logo1.png";
 import React, { useState } from "react";
+import logo from "./Assets/logo1.png";
+
 export default function Navbar() {
-  const [MenuIsOpen, SetMenuIsOpen] = useState("false");
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <div>
       <nav className="sticky">
-        <div className=" h-13 w-100% flex p-3  bg-purple-800 mx-auto justify-evenly">
+        <div className="h-13 w-full flex p-3 bg-purple-800 mx-auto justify-evenly">
           <span className="flex justify-between space-x-2">
             <img className="h-9 w-9 my-1" src={logo} alt="" />
-            <h1 className=" font-bold text-white my-2 ">Elite Emporium</h1>
+            <h1 className="font-bold text-white my-2">Elite Emporium</h1>
           </span>
           <i className="bx bx-menu my-2 font-bold text-white text-lg hidden hover:text-yellow-500 hover:text-lg "></i>
           <ul className="flex text-white my-2 font-bold space-x-5 font-sans px-5">
@@ -19,23 +24,25 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a
-                href="/"
-                className="hover:text-yellow-500 hover:text-sm "
-                onClick={() => SetMenuIsOpen(!MenuIsOpen)}
-              >
-                Shop
-                <i className={`bx bx-caret-${MenuIsOpen ? "up" : "down"}`}></i>
+              <a href="/" className="hover:text-yellow-500 hover:text-sm " onMouseOver={toggleMenu}>
+                Shop{" "}
+                {isOpen ? (
+                  <i className={"bx bx-caret-up"}></i>
+                ) : (
+                  <i className={"bx bx-caret-down"}></i>
+                )}
               </a>
-              {MenuIsOpen && (
-                <div
-                  className={`flex flex-col space-y-1 my-2 ${
-                    MenuIsOpen ? "block" : "hidden"
-                  }`}
-                >
-                  <a href="/">All collection</a>
-                  <a href="/">Best sellers</a>
-                  <a href="/">Trending books</a>
+              {isOpen && (
+                <div className="flex flex-col space-y-1 my-2">
+                  <a href="/" className="hover:text-yellow-500">
+                    All collection
+                  </a>
+                  <a href="/" className="hover:text-yellow-500">
+                    Best sellers
+                  </a>
+                  <a href="/" className="hover:text-yellow-500">
+                    Trending books
+                  </a>
                 </div>
               )}
             </li>
@@ -51,12 +58,11 @@ export default function Navbar() {
             </li>
           </ul>
           <ul className="space-x-6">
-            {" "}
             <a href="/">
               <i className="bx bx-user my-2 font-bold text-white text-xl hover:text-yellow-500 hover:text-lg "></i>
             </a>
             <a href="/">
-              <i className="bx bx-cart my-2 font-bold text-white text-xl  hover:text-yellow-500 hover:text-lg"></i>
+              <i className="bx bx-cart my-2 font-bold text-white text-xl hover:text-yellow-500 hover:text-lg"></i>
             </a>
             <span className="space-x-2">
               <input
