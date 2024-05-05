@@ -24,7 +24,7 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="/" className="hover:text-yellow-500 hover:text-sm " onMouseOver={toggleMenu}>
+              <a href="/" className="hover:text-yellow-500 hover:text-sm " onMouseEnter={toggleMenu} >
                 Shop{" "}
                 {isOpen ? (
                   <i className={"bx bx-caret-up"}></i>
