@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "./Assets/logo1.png";
 
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -59,7 +60,8 @@ export default function Navbar() {
           </ul>
           <ul className="space-x-6">
             <a href="/">
-              <i className="bx bx-user my-2 font-bold text-white text-xl hover:text-yellow-500 hover:text-lg "></i>
+              <i className="bx bx-user my-2 font-bold text-white text-xl hover:text-yellow-500 hover:text-lg ">
+                <button>Log in</button>  </i>
             </a>
             <a href="/">
               <i className="bx bx-cart my-2 font-bold text-white text-xl hover:text-yellow-500 hover:text-lg"></i>
