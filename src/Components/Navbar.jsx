@@ -8,7 +8,11 @@ export default function Navbar() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const [isUserOpen, setIsUserOpen] = useState(false);
 
+  const toggleUser = () => {
+    setIsUserOpen(!isUserOpen);
+  };
   return (
     <div>
       <nav className="sticky">
@@ -58,10 +62,15 @@ export default function Navbar() {
               </a>
             </li>
           </ul>
-          <ul className="space-x-6">
+          <ul className="space-x-6 flex ">
             <a href="/">
-              <i className="bx bx-user my-2 font-bold text-white text-xl hover:text-yellow-500 hover:text-lg ">
-                <button>Log in</button>  </i>
+              <i className="bx bx-user my-2 font-bold text-white text-xl hover:text-yellow-500 hover:text-lg " onMouseOver={toggleUser}>
+              </i>
+
+              {isUserOpen && <div className="flex flex-col space-y-1 my-2">
+                <a href="/" className="hover:text-yellow-500  text-white font-bold">Log In</a>
+                <a href="/" className="hover:text-yellow-500 text-white font-bold">Sign up</a>
+              </div>}
             </a>
             <a href="/">
               <i className="bx bx-cart my-2 font-bold text-white text-xl hover:text-yellow-500 hover:text-lg"></i>
