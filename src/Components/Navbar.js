@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import logo from "./Assets/logo1.png";
 
-
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -29,7 +28,11 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="/" className="hover:text-yellow-500 hover:text-sm " onMouseEnter={toggleMenu} >
+              <a
+                href="/"
+                className="hover:text-yellow-500 hover:text-sm "
+                onMouseEnter={toggleMenu}
+              >
                 Shop{" "}
                 {isOpen ? (
                   <i className={"bx bx-caret-up"}></i>
@@ -39,13 +42,13 @@ export default function Navbar() {
               </a>
               {isOpen && (
                 <div className="flex flex-col space-y-1 my-2">
-                  <a href="/" className="hover:text-yellow-500">
+                  <a href="/" className="hover:text-yellow-500 ">
                     All collection
                   </a>
-                  <a href="/" className="hover:text-yellow-500">
+                  <a href="/" className="hover:text-yellow-500 ">
                     Best sellers
                   </a>
-                  <a href="/" className="hover:text-yellow-500">
+                  <a href="/" className="hover:text-yellow-500 ">
                     Trending books
                   </a>
                 </div>
@@ -64,13 +67,27 @@ export default function Navbar() {
           </ul>
           <ul className="space-x-6 flex ">
             <a href="/">
-              <i className="bx bx-user my-2 font-bold text-white text-xl hover:text-yellow-500 hover:text-lg " onMouseOver={toggleUser}>
-              </i>
+              <i
+                className="bx bx-user my-2 font-bold text-white text-xl hover:text-yellow-500 hover:text-lg "
+                onMouseOver={toggleUser}
+              ></i>
 
-              {isUserOpen && <div className="flex flex-col space-y-1 my-2">
-                <a href="/" className="hover:text-yellow-500  text-white font-bold">Log In</a>
-                <a href="/" className="hover:text-yellow-500 text-white font-bold">Sign up</a>
-              </div>}
+              {isUserOpen && (
+                <div className="flex flex-col space-y-1 my-2">
+                  <a
+                    href="/"
+                    className="hover:text-yellow-500  text-white font-bold space-x-2 "
+                  >
+                    Log In<i className="bx bx-log-in-circle space-x-2 mx-2"></i>
+                  </a>
+                  <a
+                    href="/"
+                    className="hover:text-yellow-500 text-white font-bold"
+                  >
+                    Sign up
+                  </a>
+                </div>
+              )}
             </a>
             <a href="/">
               <i className="bx bx-cart my-2 font-bold text-white text-xl hover:text-yellow-500 hover:text-lg"></i>
