@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <div>
       <nav className="sticky">
-        <div className="h-13 w-full flex p-3 bg-purple-800 mx-auto justify-evenly">
+        <div className="h-13 w-full flex p-3 mx-auto justify-evenly bg-teal-700">
           <span className="flex justify-between space-x-2">
             <img className="h-9 w-9 my-1" src={logo} alt="" />
             <h1 className="font-bold text-white my-2">Elite Emporium</h1>
@@ -78,7 +78,8 @@ export default function Navbar() {
                     href="/"
                     className="hover:text-yellow-500  text-white font-bold space-x-2 "
                   >
-                    Log In<i className="bx bx-log-in-circle space-x-2 mx-2"></i>
+                    Log In
+                    <i className="bx bx-log-in-circle space-x-2 mx-2 my-2"></i>
                   </a>
                   <a
                     href="/"
