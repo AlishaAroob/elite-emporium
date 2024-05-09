@@ -7,9 +7,24 @@ export default function Home() {
       className="Section h-96 bg-cover"
       style={{ backgroundImage: `url(${Cover})` }}
     >
-      <h1 className="text-black text-2xl font-bold">
-        Welcome to Elite Emporium
-      </h1>
+      <div>
+        <h1 className="text-2xl font-bold  text-white">
+          Welcome to Elite Emporium!
+        </h1>
+        <p className="text-sm text-white ">
+          We're your go-to spot for books online.
+        </p>
+        <p className="text-sm text-white ">
+          Find all kinds of great reads, from old favorites to new discoveries.
+        </p>
+        <p className="text-sm text-white ">
+          Start your reading adventure with us now!
+        </p>
+        <button className="text-white box-border text-lg border-spacing-1 bg-yellow-500 rounded-lg p-2 w-56 ">
+          Order Now <i className="bx bx-cart text-white text-lg font-bold " />
+        </button>
+      </div>
+      <div></div>
     </div>
   );
 }
