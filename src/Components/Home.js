@@ -1,10 +1,10 @@
 import React from "react";
 import Cover from "./Assets/Cover.jpg";
-
+import Book from "./Assets/Book.png";
 export default function Home() {
   return (
     <div
-      className="Section h-96 bg-cover"
+      className="Section h-96 bg-cover flex"
       style={{ backgroundImage: `url(${Cover})` }}
     >
       <div>
@@ -24,7 +24,9 @@ export default function Home() {
           Order Now <i className="bx bx-cart text-white text-lg font-bold " />
         </button>
       </div>
-      <div></div>
+      <div>
+        <img className="h-45 w-72" src={Book} alt="" />
+      </div>
     </div>
   );
 }
