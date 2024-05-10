@@ -20,7 +20,7 @@ export default function Home() {
         <p className="text-sm text-white ">
           Start your reading adventure with us now!
         </p>
-        <button className="text-white box-border text-lg border-spacing-1 bg-yellow-500 rounded-lg p-2 w-56 ">
+        <button className="text-white box-border text-lg border-spacing-1 bg-yellow-500 rounded-lg p-2 w-56 hover:bg-yellow-400 ">
           Order Now <i className="bx bx-cart text-white text-lg font-bold " />
         </button>
       </div>
