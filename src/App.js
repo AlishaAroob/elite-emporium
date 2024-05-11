@@ -1,3 +1,4 @@
+import BestSelling from "./Components/BestSelling";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <BestSelling />
     </>
   );
 }
