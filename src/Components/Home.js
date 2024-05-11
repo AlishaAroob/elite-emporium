@@ -1,6 +1,5 @@
 import React from "react";
 import Cover from "./Assets/Cover.jpg";
-import Book from "./Assets/Book.png";
 export default function Home() {
   return (
     <div
@@ -24,9 +23,6 @@ export default function Home() {
           Order Now <i className="bx bx-cart text-white text-lg font-bold " />
         </button>
       </div>
-      {/* <div>
-        <img className=" w-64 ml-8 p-10" src={Book} alt="Book" />
-      </div> */}
     </div>
   );
 }
