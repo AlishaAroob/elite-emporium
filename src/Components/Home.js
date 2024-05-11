@@ -4,20 +4,20 @@ import Book from "./Assets/Book.png";
 export default function Home() {
   return (
     <div
-      className="Section h-96 max-h-full bg-cover flex justify-around align-middle"
+      className="Section h-96 max-h-full bg-cover flex "
       style={{ backgroundImage: `url(${Cover})` }}
     >
-      <div>
-        <h1 className="text-2xl font-bold  text-white">
+      <div className="p-20 text-left">
+        <h1 className="text-5xl font-bold  text-white">
           Welcome to Elite Emporium!
         </h1>
-        <p className="text-sm text-white ">
+        <p className="text-lg text-white my-2">
           We're your go-to spot for books online.
         </p>
-        <p className="text-sm text-white ">
+        <p className="text-lg text-white ">
           Find all kinds of great reads, from old favorites to new discoveries.
         </p>
-        <p className="text-sm text-white ">
+        <p className="text-lg text-white ">
           Start your reading adventure with us now!
         </p>
         <button className="text-white box-border text-lg border-spacing-1 bg-yellow-500 rounded-lg p-2 w-56 hover:bg-yellow-400 ">
