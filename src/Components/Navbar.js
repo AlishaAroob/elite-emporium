@@ -23,7 +23,7 @@ export default function Navbar() {
           <i className="bx bx-menu my-2 font-bold text-white text-lg hidden hover:text-yellow-500 hover:text-lg "></i>
           <ul className="flex text-white my-2 font-bold space-x-5 font-sans px-5">
             <li>
-              <a href="/" className="hover:text-yellow-500 hover:text-sm ">
+              <a href="/" className="hover:text-yellow-500 hover:text-sm  ">
                 Home
               </a>
             </li>

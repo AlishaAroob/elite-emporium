@@ -19,8 +19,9 @@ export default function Home() {
         <p className="text-lg text-white text-center ">
           Start your reading adventure with us now!
         </p>
-        <button className="text-white box-border text-lg border-spacing-1 bg-yellow-500 rounded-lg  mx-48 my-2 p-2 w-56 hover:bg-yellow-400 ">
-          Order Now <i className="bx bx-cart text-white text-lg font-bold " />
+        <button className="text-white box-border text-lg border-spacing-1 transition ease-in-out delay-150 bg-yellow-500 rounded-lg  mx-48 my-4 p-2 w-56 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-400 duration-300 ">
+          Order Now{" "}
+          <i className=" mx-2 bx bx-cart text-white text-lg font-bold " />
         </button>
       </div>
     </div>
