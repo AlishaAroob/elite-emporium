@@ -12,7 +12,7 @@ export default function BestSelling() {
         {" "}
         Best Sellers
       </h1>
-      <div className="Grid justify-around">
+      <div className="Grid grid-rows-5 bg-black  justify-around">
         <div className="flex  mt-5 justify-around ">
           <div>
             <img className=" w-64 px-5" src={Book} alt="Book" />
