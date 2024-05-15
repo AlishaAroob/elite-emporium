@@ -7,13 +7,13 @@ import Book4 from "./Assets/Book4.png";
 
 export default function BestSelling() {
   return (
-    <div className="Section1 min-h-[500px] w-full font-bold shadow-lg ">
+    <div className="Section1 min-h-[550px] w-full font-bold shadow-lg ">
       <h1 className="text-4xl text-black text-center py-5 font">
         {" "}
         Best Sellers
       </h1>
-      <div className="Grid grid-rows-5  justify-between">
-        <div className="flex  mt-5 justify-around ">
+      <div className=" container Grid grid-rows-5  justify-between">
+        <div className="flex  mt-5 justify-around ml-16">
           <div className=" h-56   w-52  cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
             <img className=" w-64 px-5" src={Book} alt="Book" />
             <h1 className="text-sm mx-4 "> Soul </h1>
