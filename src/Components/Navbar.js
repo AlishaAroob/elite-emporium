@@ -56,7 +56,7 @@ export default function Navbar() {
             </li>
             <li>
               <a href="/" className="hover:text-yellow-500 hover:text-sm ">
-                Pricing
+                About Us
               </a>
             </li>
             <li>
