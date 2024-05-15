@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <div>
       <nav className="sticky">
-        <div className="h-13 w-full flex p-3 mx-auto justify-evenly bg-teal-700 shadow-lg">
+        <div className="h-13 w-full flex p-3 mx-auto justify-evenly bg-teal-700 shadow-lg sticky">
           <span className="flex justify-between space-x-2">
             <img className="h-9 w-9 my-1" src={logo} alt="" />
             <h1 className="font-bold text-white my-2">Elite Emporium</h1>

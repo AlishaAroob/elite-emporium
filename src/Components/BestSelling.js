@@ -7,7 +7,7 @@ import Book4 from "./Assets/Book4.png";
 
 export default function BestSelling() {
   return (
-    <div className="Section1 max-h-max w-full font-bold  ">
+    <div className="Section1 min-h-[500px] w-full font-bold shadow-lg ">
       <h1 className="text-4xl text-black text-center py-5 font">
         {" "}
         Best Sellers
