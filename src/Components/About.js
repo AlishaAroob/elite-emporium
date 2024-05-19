@@ -12,12 +12,6 @@ export default function About() {
           – we're a community of book lovers passionate about spreading the joy
           of reading far and wide.
         </p>
-        <p>
-          Welcome to Elite Emporium, your premier destination for all things
-          literary! At Elite Emporium, we're more than just a bookstore – we're
-          a community of book lovers passionate about spreading the joy of
-          reading far and wide.
-        </p>
       </div>
     </div>
   );
