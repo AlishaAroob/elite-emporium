@@ -2,10 +2,10 @@ import React from "react";
 import Library from "./Assets/Library.jpg";
 export default function About() {
   return (
-    <div className="Section2 min-h-[600px]">
+    <div className="Section2 min-h-[600px] shadow-md">
       <h1 className="text-4xl font-bold pt-5 text-center"> About Us </h1>
-      <div className=" container grid grid-cols-2 text-black border-zinc-300  shadow-lg">
-        <p className="text-justify p-8">
+      <div className=" container grid grid-cols-2 text-black border-zinc-300  ">
+        <p className="text-justify ml-8 mt-2 p-10">
           Welcome to Elite Emporium, your premier online bookstore where
           literature meets luxury. At Elite Emporium, we believe that books are
           more than just pages and ink; they are gateways to adventure,
@@ -22,9 +22,11 @@ export default function About() {
           offering not just bestsellers and classics, but also rare finds and
           hidden gems that you won’t find anywhere else.
         </p>
-        <p className=" p-10 ">
+        <p className="p-14 mt-4 ">
           <img src={Library} alt="" />
         </p>
+        <h1 className="text-4xl font-bold pt-5 text-center"> Our Collection</h1>
+        <p></p>
       </div>
     </div>
   );
