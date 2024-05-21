@@ -4,8 +4,8 @@ export default function About() {
   return (
     <div className="Section2 min-h-[600px]">
       <h1 className="text-4xl font-bold pt-5 text-center"> About Us </h1>
-      <div className=" container grid grid-cols-2 bg-black border-zinc-300 text-white">
-        <p className="text-justify">
+      <div className=" container grid grid-cols-2 text-black border-zinc-300">
+        <p className="text-justify p-8">
           Welcome to Elite Emporium, your premier online bookstore where
           literature meets luxury. At Elite Emporium, we believe that books are
           more than just pages and ink; they are gateways to adventure,
