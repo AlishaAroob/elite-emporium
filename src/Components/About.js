@@ -26,7 +26,15 @@ export default function About() {
           <img src={Library} alt="" />
         </p>
         <h1 className="text-4xl font-bold pt-5 text-center"> Our Collection</h1>
-        <p></p>
+        <p>
+          Our extensive catalog spans various genres, including fiction,
+          non-fiction, mystery, romance, science fiction, fantasy, and more.
+          Whether you're looking for the latest releases, timeless classics, or
+          niche titles, Elite Emporium has something to captivate every reader.
+          We also offer a selection of beautifully designed special editions and
+          collector’s items that make perfect gifts for the bibliophiles in your
+          life.
+        </p>
       </div>
     </div>
   );
