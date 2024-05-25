@@ -1,5 +1,6 @@
 import React from "react";
 import Library from "./Assets/Library.jpg";
+import Collection from "./Assets/Collection.png";
 export default function About() {
   return (
     <div className="Section2 min-h-[500px] shadow-lg">
@@ -24,6 +25,16 @@ export default function About() {
         </p>
         <p className="p-14 mt-4 ">
           <img src={Library} alt="" />
+        </p>
+        <h1 className="text-center text-2xl font-bold">Why Choose Us?</h1>
+        <p></p>
+        <p className=" text-justify ml-8 p-10 ">
+          1. Curated Selection: Our team of passionate book experts handpicks
+          every title to ensure a diverse and high-quality collection.
+        </p>
+        <p className="p-14 mt-4">
+          {" "}
+          <img src={Collection} alt="" />
         </p>
       </div>
     </div>
