@@ -2,7 +2,7 @@ import React from "react";
 import Library from "./Assets/Library.jpg";
 import Collection from "./Assets/Collection.png";
 import Collection3 from "./Assets/Collection3.webp";
-
+import Customerservice from "./Assets/customerservice.jpg";
 export default function About() {
   return (
     <div className="Section2 min-h-[500px] shadow-lg">
@@ -53,7 +53,7 @@ export default function About() {
         </p>
         <p className="p-10 mt-4 box-border shadow-lg">
           {" "}
-          <img className=" h-56  w-96 ml-20" src={Collection3} alt="" />
+          <img className=" h-56  w-96 ml-20" src={Customerservice} alt="" />
         </p>
       </div>
     </div>
