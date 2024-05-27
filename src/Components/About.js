@@ -1,6 +1,8 @@
 import React from "react";
 import Library from "./Assets/Library.jpg";
 import Collection from "./Assets/Collection.png";
+import Collection3 from "./Assets/Collection3.webp";
+
 export default function About() {
   return (
     <div className="Section2 min-h-[500px] shadow-lg">
@@ -35,6 +37,23 @@ export default function About() {
         <p className="p-10 mt-4 box-border shadow-lg">
           {" "}
           <img className=" h-56  w-96 ml-20" src={Collection} alt="" />
+        </p>
+        <p className=" text-justify ml-8 p-10 mt-24">
+          2. Exclusive Editions: Discover unique editions and exclusive releases
+          that you won't find anywhere else.
+        </p>
+        <p className="p-10 mt-4 box-border shadow-lg">
+          {" "}
+          <img className=" h-56  w-96 ml-20" src={Collection3} alt="" />
+        </p>
+        <p className=" text-justify ml-8 p-10 mt-24">
+          3. Personalized Service: We offer personalized recommendations and
+          dedicated customer support to help you find exactly what you're
+          looking for.
+        </p>
+        <p className="p-10 mt-4 box-border shadow-lg">
+          {" "}
+          <img className=" h-56  w-96 ml-20" src={Collection3} alt="" />
         </p>
       </div>
     </div>
