@@ -28,13 +28,13 @@ export default function About() {
         </p>
         <h1 className="text-center text-2xl font-bold">Why Choose Us?</h1>
         <p></p>
-        <p className=" text-justify ml-8 p-10 ">
+        <p className=" text-justify ml-8 p-10 mt-24">
           1. Curated Selection: Our team of passionate book experts handpicks
           every title to ensure a diverse and high-quality collection.
         </p>
-        <p className="p-14 mt-4">
+        <p className="p-10 mt-4 box-border shadow-lg">
           {" "}
-          <img src={Collection} alt="" />
+          <img className=" h-56  w-96 ml-20" src={Collection} alt="" />
         </p>
       </div>
     </div>
