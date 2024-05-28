@@ -34,7 +34,7 @@ export default function About() {
           1. Curated Selection: Our team of passionate book experts handpicks
           every title to ensure a diverse and high-quality collection.
         </p>
-        <p className="p-10 mt-4 box-border shadow-lg">
+        <p className="p-10 mt-4 box-border shadow-lg mb-5">
           {" "}
           <img className=" h-56  w-96 ml-20" src={Collection} alt="" />
         </p>
@@ -42,7 +42,7 @@ export default function About() {
           2. Exclusive Editions: Discover unique editions and exclusive releases
           that you won't find anywhere else.
         </p>
-        <p className="p-10 mt-4 box-border shadow-lg">
+        <p className="p-10 mt-4 box-border shadow-lg mb-5">
           {" "}
           <img className=" h-56  w-96 ml-20" src={Collection3} alt="" />
         </p>
@@ -51,7 +51,7 @@ export default function About() {
           dedicated customer support to help you find exactly what you're
           looking for.
         </p>
-        <p className="p-10 mt-4 box-border shadow-lg">
+        <p className="p-10 mt-4  box-border shadow-lg mb-5">
           {" "}
           <img className=" h-56  w-96 ml-20" src={Customerservice} alt="" />
         </p>
