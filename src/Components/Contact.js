@@ -11,6 +11,11 @@ export default function Contact() {
         <img className=" h-28 w-40 my-1" src={logo1} alt="" />
         <h1 className="font-bold text-white my-10 text-lg">Elite Emporium</h1>
       </span>
+      <div>
+        <i class="bx bxl-instagram"></i>
+        <i class="bx bxl-facebook-circle"></i>
+        <i class="bx bxl-twitter"></i>
+      </div>
     </div>
   );
 }
