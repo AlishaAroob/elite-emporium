@@ -12,7 +12,7 @@ export default function Contact() {
         <h1 className="font-bold text-white my-10 text-lg">Elite Emporium</h1>
       </span>
       <div className="text-xl font-bold text-white ml-24 space-x-4 pl-16 ">
-        <p className=" ">Follow us</p>
+        <p className=" ml-4 ">Follow us</p>
         <br></br>
         <i className="bx bxl-instagram "></i>
         <i className="bx bxl-facebook-circle"></i>
