@@ -11,7 +11,7 @@ export default function Contact() {
         <img className=" h-28 w-40 my-1" src={logo1} alt="" />
         <h1 className="font-bold text-white my-10 text-lg">Elite Emporium</h1>
       </span>
-      <div className="text-xl font-bold text-white ml-24 space-x-4 pl-16 ">
+      <div className="text-2xl font-bold text-white ml-24 space-x-4 pl-16 ">
         <p className=" ml-4 ">Follow us</p>
         <br></br>
         <i className="bx bxl-instagram "></i>
