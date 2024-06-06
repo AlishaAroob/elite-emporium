@@ -8,7 +8,7 @@ export default function Contact() {
         Contact Us
       </h1>
       <div className="grid grid-cols-3">
-        <div className=" space-x-2 ml-20 mt-10 p-10 ">
+        <div className=" space-x-2 ml-20 mt-8 p-10 ">
           <h1 className="font-bold text-white my-10 text-lg">
             <img className=" h-28 w-40 my-1" src={logo1} alt="" />
             Elite Emporium
