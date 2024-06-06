@@ -13,13 +13,13 @@ export default function Contact() {
             <img className=" h-28 w-40 my-1" src={logo1} alt="" />
             Elite Emporium
           </h1>
-        </div>
-        <div className="text-2xl font-bold text-white ml-24 space-x-4 pl-16 ">
-          <p className=" ml-4 ">Follow us</p>
-          <br></br>
-          <i className="bx bxl-instagram "></i>
-          <i className="bx bxl-facebook-circle"></i>
-          <i className="bx bxl-twitter"></i>
+          <div className="text-xl font-bold text-white space-x-4 ">
+            <p className=" ml-4 ">Follow us</p>
+            <br></br>
+            <i className="bx bxl-instagram "></i>
+            <i className="bx bxl-facebook-circle"></i>
+            <i className="bx bxl-twitter"></i>
+          </div>
         </div>
       </div>
     </div>
