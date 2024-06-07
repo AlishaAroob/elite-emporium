@@ -1,5 +1,6 @@
 import React from "react";
 import logo1 from "./Assets/logo1.png";
+import PNG from "./Assets/Minimal Elegant Circle Badge Creative Studio Brand Logo (2).png";
 export default function Contact() {
   return (
     <div className="Section3 min-h-[450px]  bg-teal-700 ">
@@ -66,6 +67,9 @@ export default function Contact() {
           >
             Contact
           </a>
+        </div>
+        <div>
+          <img className=" h-80 w-80 text-center" src={PNG} alt="" />
         </div>
       </div>
     </div>
