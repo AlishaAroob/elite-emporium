@@ -16,7 +16,10 @@ function App() {
       <About />
       <Contact />
       <Footer />
-      <AllCollection />
+      <Switch>
+        <Route exact path="/src/Components/AllCollection.js"></Route>
+        <AllCollection />
+      </Switch>
     </>
   );
 }
