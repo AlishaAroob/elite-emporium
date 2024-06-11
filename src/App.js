@@ -17,8 +17,7 @@ function App() {
       <Contact />
       <Footer />
       <Switch>
-        <Route exact path="/src/Components/AllCollection.js"></Route>
-        <AllCollection />
+        <Route path="/allcollection" component={AllCollection} />
       </Switch>
     </>
   );
