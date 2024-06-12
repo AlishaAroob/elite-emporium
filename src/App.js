@@ -19,9 +19,6 @@ function App() {
       <Switch>
         <Route path="/allcollection" component={AllCollection} />
       </Switch>
-      <Switch>
-        <Route path="/allcollection" component={AllCollection} />
-      </Switch>
     </>
   );
 }
