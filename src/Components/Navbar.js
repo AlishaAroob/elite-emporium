@@ -42,10 +42,7 @@ export default function Navbar() {
               </a>
               {isOpen && (
                 <div className="flex flex-col space-y-1 my-2">
-                  <a
-                    href="/src/Components/AllCollection.js"
-                    className="hover:text-yellow-500 "
-                  >
+                  <a href="/" className="hover:text-yellow-500 ">
                     All collection
                   </a>
                   <a href="/" className="hover:text-yellow-500 ">
