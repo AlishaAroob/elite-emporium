@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BestSelling from "./Components/BestSelling";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
@@ -16,11 +15,6 @@ function App() {
       <About />
       <Contact />
       <Footer />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<AllCollection />}></Route>
-        </Routes>
-      </BrowserRouter>
     </>
   );
 }
