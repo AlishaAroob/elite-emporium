@@ -1,7 +1,11 @@
 import React from "react";
 
-export const AllCollection = () => {
-  return <div>AllCollection</div>;
-};
-
-export default AllCollection;
+export default function AllCollection() {
+  return (
+    <div className="container">
+      <div className=" text-center font-bold text-4xl text-black ">
+        All Collection{" "}
+      </div>
+    </div>
+  );
+}
