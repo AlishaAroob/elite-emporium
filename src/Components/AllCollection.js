@@ -7,7 +7,7 @@ export default function AllCollection() {
         {" "}
         All Collection{" "}
       </h1>
-      <h2 className="text-left ml-5 mt-15 text-2xl text-black">
+      <h2 className="text-left ml-5 mt-15 font-bold text-2xl text-black">
         Trending Books
       </h2>
     </div>
