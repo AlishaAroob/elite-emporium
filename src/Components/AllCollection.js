@@ -10,6 +10,7 @@ export default function AllCollection() {
       <h2 className="text-left ml-5 mt-15 font-bold text-2xl text-black">
         Trending Books
       </h2>
+      <div className=""></div>
     </div>
   );
 }
