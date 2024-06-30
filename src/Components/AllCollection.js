@@ -1,4 +1,5 @@
 import React from "react";
+import Book2 from "./Assets/Book2.png";
 
 export default function AllCollection() {
   return (
@@ -11,7 +12,7 @@ export default function AllCollection() {
         Trending Books
       </h2>
       <div className="">
-        <img src="" alt="" />
+        <img src={Book2} alt="" />
       </div>
     </div>
   );
