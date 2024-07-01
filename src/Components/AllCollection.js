@@ -12,7 +12,7 @@ export default function AllCollection() {
         Trending Books
       </h2>
       <div className="">
-        <img className="w-70 h-90" src={Book2} alt="" />
+        <img className="w-70 h-50" src={Book2} alt="" />
       </div>
     </div>
   );
