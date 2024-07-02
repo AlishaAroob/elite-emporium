@@ -1,5 +1,6 @@
 import React from "react";
 import Book2 from "./Assets/Book2.png";
+import Book1 from "./Assets/Book1.png";
 
 export default function AllCollection() {
   return (
@@ -11,8 +12,9 @@ export default function AllCollection() {
       <h2 className="text-left ml-5 mt-15 font-bold text-2xl text-black">
         Trending Books
       </h2>
-      <div className=" h-56   w-52  cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
+      <div className=" h-56   w-52 mt-5  cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
         <img className=" " src={Book2} alt="" />
+        <img className=" w-64  px-5" src={Book1} alt="Book1" />
       </div>
     </div>
   );
