@@ -1,6 +1,7 @@
 import React from "react";
 import Book2 from "./Assets/Book2.png";
 import Book1 from "./Assets/Book1.png";
+import Book from "./Assets/Book.png";
 
 export default function AllCollection() {
   return (
