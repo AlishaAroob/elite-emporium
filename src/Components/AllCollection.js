@@ -16,9 +16,9 @@ export default function AllCollection() {
       </h2>
       <div className=" h-56   w-52 mt-5  cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
         <img className=" " src={Book2} alt="" />
-        <img className=" w-64  px-5" src={Book1} alt="Book1" />
-        <img className=" w-64 px-5" src={Book} alt="Book" />
-        <img className=" w-64 px-5" src={Book4} alt="Book4" />
+        <img className="" src={Book1} alt="Book1" />
+        <img className="" src={Book} alt="Book" />
+        <img className="" src={Book4} alt="Book4" />
       </div>
     </div>
   );
