@@ -2,6 +2,7 @@ import React from "react";
 import Book2 from "./Assets/Book2.png";
 import Book1 from "./Assets/Book1.png";
 import Book from "./Assets/Book.png";
+import Book4 from "./Assets/Book4.png";
 
 export default function AllCollection() {
   return (
@@ -17,6 +18,7 @@ export default function AllCollection() {
         <img className=" " src={Book2} alt="" />
         <img className=" w-64  px-5" src={Book1} alt="Book1" />
         <img className=" w-64 px-5" src={Book} alt="Book" />
+        <img className=" w-64 px-5" src={Book4} alt="Book4" />
       </div>
     </div>
   );
