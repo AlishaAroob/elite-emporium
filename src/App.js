@@ -6,6 +6,8 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import AllCollection from "./Components/AllCollection";
+import { Routes } from "react-router-dom";
+
 function App() {
   return (
     <>
@@ -15,7 +17,11 @@ function App() {
       <About />
       <Contact />
       <Footer />
-      <AllCollection />
+      <Routes
+        exact
+        path="./Components/AllCollection.js"
+        Component={AllCollection}
+      />
     </>
   );
 }
