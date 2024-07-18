@@ -44,7 +44,7 @@ export default function Navbar() {
               {isOpen && (
                 <div className="flex flex-col space-y-1 my-2">
                   <a href="/" className="hover:text-yellow-500 ">
-                    <Link to="./AllCollection.js">All collection </Link>
+                    <Link to="/all-collection">All collection </Link>
                   </a>
 
                   <a href="/" className="hover:text-yellow-500 ">
