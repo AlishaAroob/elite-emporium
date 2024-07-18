@@ -20,7 +20,7 @@ function App() {
       <Footer />
       <Routes>
         <Route path="/" element={<AllCollection />} />
-        <Route path="/allcollection" element={<AllCollection />} />
+        <Route path="/all-collection" element={<AllCollection />} />
       </Routes>
     </>
   );
