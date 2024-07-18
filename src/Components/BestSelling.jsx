@@ -1,11 +1,12 @@
-import React from "react";
+import React from 'react'
 import Book from "./Assets/Book.png";
 import Book1 from "./Assets/Book1.png";
 import Book2 from "./Assets/Book2.png";
 import Book3 from "./Assets/Book3.png";
 import Book4 from "./Assets/Book4.png";
 
-export default function BestSelling() {
+
+const BestSelling = () => {
   return (
     <div className="Section1 min-h-[550px] w-full font-bold shadow-lg ">
       <h1 className="text-4xl text-black text-center py-5 font">
@@ -67,5 +68,7 @@ export default function BestSelling() {
         </div>
       </div>
     </div>
-  );
+  )
 }
+
+export default BestSelling;

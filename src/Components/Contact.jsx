@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react'
 import logo1 from "./Assets/logo1.png";
 import PNG from "./Assets/Minimal Elegant Circle Badge Creative Studio Brand Logo (2).png";
-export default function Contact() {
+
+const Contact = () => {
   return (
     <div className="Section3 min-h-[450px]  bg-teal-700 ">
       <h1 className="font-bold text-4xl text-center pt-8 text-white ">
@@ -73,5 +74,9 @@ export default function Contact() {
         </div>
       </div>
     </div>
-  );
+  )
 }
+
+export default Contact;
+
+

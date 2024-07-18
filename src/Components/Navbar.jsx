@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 import logo from "./Assets/logo1.png";
-import { Link } from "react-router-dom";
 
-export default function Navbar() {
+const Navbar = () => {
+
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -44,7 +45,7 @@ export default function Navbar() {
               {isOpen && (
                 <div className="flex flex-col space-y-1 my-2">
                   <a href="/" className="hover:text-yellow-500 ">
-                    <Link to="/all-collection">All collection </Link>
+                    All collection
                   </a>
 
                   <a href="/" className="hover:text-yellow-500 ">
@@ -110,4 +111,9 @@ export default function Navbar() {
       </nav>
     </div>
   );
-}
+};
+
+
+
+export default Navbar;
+

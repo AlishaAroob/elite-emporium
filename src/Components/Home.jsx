@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react'
 import Cover from "./Assets/Cover.jpg";
-export default function Home() {
+
+const Home = () => {
   return (
     <div
       className="Section h-96 bg-cover flex shadow-lg"
@@ -25,5 +26,10 @@ export default function Home() {
         </button>
       </div>
     </div>
-  );
+  )
 }
+
+export default Home;
+
+
+
