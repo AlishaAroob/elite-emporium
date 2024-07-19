@@ -44,7 +44,7 @@ const Navbar = () => {
               </a>
               {isOpen && (
                 <div className="flex flex-col space-y-1 my-2">
-                  <a href="/" className="hover:text-yellow-500 ">
+                  <a href="/all-collection" className="hover:text-yellow-500 ">
                     All collection
                   </a>
 

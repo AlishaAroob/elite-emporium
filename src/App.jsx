@@ -1,30 +1,24 @@
-import React from "react";
+import React from 'react'
 import BestSelling from "./Components/BestSelling";
 import Home from "./Components/Home";
-import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
 import AllCollection from "./Components/AllCollection";
-import { BrowserRouter as Routes, Route } from "react-router-dom";
-import Shop from "./Components/Shop";
+import { Routes, Route } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
-    <>
-      <Navbar />
-      <Home />
-      <BestSelling />
-      <About />
-      <Contact />
-      <Footer />
+    <div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/shop/all-collection" element={<AllCollection />} />
+        <Route exact="/" element={<Home />} />
+        <Route exact="/about" element={<About />} />
+        <Route exact="/contact" element={<Contact />} />
+        <Route exact="/best-selling" element={<BestSelling />} />
+        <Route exact="/all-collection" element={<AllCollection />} />
       </Routes>
-    </>
-  );
+    </div>)
 }
 
 export default App;
+
+
